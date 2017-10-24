@@ -1,0 +1,20 @@
+/* pages/detail/detail.wxss */
+.bount-left{
+    font-family: "楷体";
+    color: #ff0000;
+    font-size: 40rpx;
+}
+.bount-right{
+   font-family: "楷体";
+   color: #ff0000;
+   font-size: 40rpx;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.a{
+  color: blue;
+}

@@ -1,0 +1,4 @@
+<view class="load-more-container">
+  <icon color="#999999" size="18" type="waiting_circle"/>
+  <text class="load-more-tips">我也是有底线的人...</text>
+</view>

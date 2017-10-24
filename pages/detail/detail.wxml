@@ -1,0 +1,12 @@
+<view class="container">
+  <view style="display: flex; flex-direction: column; height: 100%; width: 100%;">
+   
+    <text selectable='true' style="margin: 10rpx;">标题：{{title}}</text>
+    <text selectable='true' style="margin: 10rpx;">地址：<text class='a'>{{url}}</text></text>
+     <view class="container">
+      <button class='bount-left' bindtap='fuzhi'>复制</button><button class="bount-right" bindtap="collection">收藏</button>
+      </view>
+    <text class='bottom'>
+    因为小程序还不支持直接跳转抓取页面内容，所以请长按复制链接浏览器打开阅读</text>
+  </view>
+</view>
