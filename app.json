@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/recommend/recommend",
+    "pages/my/my",
+    "pages/detail/detail",
+    "pages/showpic/showpic",
+    "pages/submitgank/submitgank",
+    "pages/collection/collection"
+  ],
+  "tabBar": {
+    "backgroundColor": "#FFF",
+    "color": "#000",
+    "selectedColor": "#FF5000",
+    "list": [
+      {
+        "iconPath": "image/tabicon/girl.png",
+        "selectedIconPath": "image/tabicon/girl.png",
+        "pagePath": "pages/index/index",
+        "text": "妹纸"
+      },
+      {
+        "iconPath": "image/tabicon/love.png",
+        "selectedIconPath": "image/tabicon/love.png",
+        "pagePath": "pages/recommend/recommend",
+        "text": "日推"
+      },
+      {
+        "iconPath": "image/tabicon/boy.png",
+        "selectedIconPath": "image/tabicon/boy.png",
+        "pagePath": "pages/my/my",
+        "text": "我"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#ff9b6e",
+    "navigationBarTitleText": "公众号：小二果子",
+    "navigationBarTextStyle": "#ffffff",
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#efeff4",
+    "enablePullDownRefresh": true
+  }
+}
